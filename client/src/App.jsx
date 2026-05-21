@@ -1,7 +1,9 @@
+import HomePage from "./pages/HomePage";
+
 function App() {
   return (
     <div>
-      <h1>OpenWard</h1>
+      <HomePage />
     </div>
   );
 }
