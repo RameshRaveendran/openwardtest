@@ -6,6 +6,8 @@ function Navbar() {
       <div>
         <a href="#">Home</a>
         <a href="#">Login</a>
+        <a href="#">About</a>
+        <a href="#">Complaints</a>
       </div>
     </nav>
   );
