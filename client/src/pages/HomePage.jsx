@@ -1,12 +1,11 @@
 import { useState } from "react";
-import Button from "../components/Button";
 
 function HomePage() {
 
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(100);
 
   function increase() {
-    setCount(count + 1);
+    setCount(count + "a");
   }
   function reset() {
     setCount(0);
