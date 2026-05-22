@@ -1,13 +1,26 @@
+import { useState } from "react";
+import Button from "../components/Button";
+
 function HomePage() {
 
-  function handleClick() {
-    alert("Complaint Submitted");
+  const [count, setCount] = useState(0);
+
+  function increase() {
+    setCount(count + 1);
+  }
+  function reset() {
+    setCount(0);
   }
 
   return (
     <div>
-      <button onClick={handleClick}>
-        Submit
+      <h1>{count}</h1>
+
+      <button onClick={increase}>
+        Increase
+      </button>
+      <button onClick={reset}>
+        reset 
       </button>
     </div>
   );
