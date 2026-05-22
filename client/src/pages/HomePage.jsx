@@ -1,9 +1,13 @@
 function HomePage() {
+  const title = "OpenWard";
+
   return (
     <div>
-      <h1>Welcome to OpenWard</h1>
+      <h1>{title}</h1>
+      <h1>{10 * 5}</h1>
+      <h1>{"Ramesh"}</h1>
+      <h1>{true}</h1>
       <p>Report. Track. Resolve.</p>
-      <h2>This is my first React app</h2>
     </div>
   );
 }
