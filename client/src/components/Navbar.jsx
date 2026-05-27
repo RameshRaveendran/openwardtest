@@ -1,48 +1,28 @@
-import {
-  Routes,
-  Route,
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-
-import HomePage from "./pages/HomePage";
-import LoginPage from "./pages/LoginPage";
-import ComplaintPage from "./pages/ComplaintPage";
-import DashboardPage from "./pages/DashboardPage";
-
-function App() {
+function Navbar() {
 
   return (
-    <div>
+    <nav>
 
-      <Navbar />
+      <Link to="/">
+        Home
+      </Link>
 
-      <Routes>
+      <Link to="/login">
+        Login
+      </Link>
 
-        <Route
-          path="/"
-          element={<HomePage />}
-        />
+      <Link to="/complaints">
+        Complaints
+      </Link>
 
-        <Route
-          path="/login"
-          element={<LoginPage />}
-        />
+      <Link to="/dashboard">
+        Dashboard
+      </Link>
 
-        <Route
-          path="/complaints"
-          element={<ComplaintPage />}
-        />
-
-        <Route
-          path="/dashboard"
-          element={<DashboardPage />}
-        />
-
-      </Routes>
-
-    </div>
+    </nav>
   );
 }
 
-export default App;
+export default Navbar;

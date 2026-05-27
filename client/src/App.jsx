@@ -3,7 +3,7 @@ import {
   Route,
 } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
+import MainLayout from "./layouts/MainLayout";
 
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
@@ -13,9 +13,7 @@ import DashboardPage from "./pages/DashboardPage";
 function App() {
 
   return (
-    <div>
-
-      <Navbar />
+    <MainLayout>
 
       <Routes>
 
@@ -41,7 +39,7 @@ function App() {
 
       </Routes>
 
-    </div>
+    </MainLayout>
   );
 }
 
