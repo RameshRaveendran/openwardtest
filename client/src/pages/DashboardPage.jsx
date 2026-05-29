@@ -1,5 +1,15 @@
+import ComplaintCard from "../components/ComplaintCard";
+
 function DashboardPage() {
-  return <h1>Dashboard Page</h1>;
+  return (
+    <div>
+      <h1>Dashboard</h1>
+
+      <ComplaintCard />
+      <ComplaintCard />
+      <ComplaintCard />
+    </div>
+  );
 }
 
 export default DashboardPage;
