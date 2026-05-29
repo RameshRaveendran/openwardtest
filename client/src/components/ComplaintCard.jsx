@@ -9,7 +9,7 @@ function ComplaintCard() {
       "
     >
       <h2 className="font-bold">
-        Broken Street Light
+        piller light eriju pottich
       </h2>
 
       <p>
