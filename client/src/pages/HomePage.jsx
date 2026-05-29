@@ -2,13 +2,30 @@ function HomePage() {
   return (
     <div className="p-8">
 
-      <h1 className="text-4xl font-bold mb-4">
-        Welcome to OpenWard
-      </h1>
+      <div className="max-w-4xl">
 
-      <p className="text-lg">
-        Report. Track. Resolve.
-      </p>
+        <h1 className="text-5xl font-bold mb-4">
+          Report Civic Issues Easily
+        </h1>
+
+        <p className="text-lg mb-6">
+          Track complaints and monitor
+          resolutions transparently.
+        </p>
+
+        <button
+          className="
+          bg-blue-500
+          text-white
+          px-4
+          py-2
+          rounded
+          "
+        >
+          Create Complaint
+        </button>
+
+      </div>
 
     </div>
   );
