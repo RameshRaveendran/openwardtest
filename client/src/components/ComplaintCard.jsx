@@ -13,7 +13,7 @@ function ComplaintCard() {
       </h2>
 
       <p>
-        Light not working for 3 days.
+        light kathunnilla .
       </p>
 
       <span>
