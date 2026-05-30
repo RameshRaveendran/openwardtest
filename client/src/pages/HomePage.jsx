@@ -5,7 +5,7 @@ function HomePage() {
       <div className="max-w-4xl">
 
         <h1 className="text-5xl font-bold mb-4">
-          Report Civic Issues Easily
+          vegathil namukk register cheyyam
         </h1>
 
         <p className="text-lg mb-6">
