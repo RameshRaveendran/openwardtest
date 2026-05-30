@@ -11,6 +11,8 @@ function HomePage() {
         <p className="text-lg mb-6">
           Track complaints and monitor
           resolutions transparently.
+          pinne ellam namukk deal cheyyam 
+          dont worry !
         </p>
 
         <button
