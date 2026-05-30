@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="flex justify-between items-center p-4 border-b">
 
       <h1 className="text-2xl font-bold">
-        OpenWard
+        OpenWardlekk swagatham
       </h1>
 
       <div className="flex gap-4">
