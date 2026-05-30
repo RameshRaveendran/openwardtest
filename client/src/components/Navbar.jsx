@@ -18,6 +18,10 @@ function Navbar() {
           Complaints
         </Link>
 
+        <Link to="/Contact">
+          Contact Us
+        </Link>
+
       </div>
 
     </nav>
